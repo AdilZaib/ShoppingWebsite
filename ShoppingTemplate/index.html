@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/a2c0d0cd3d.js" crossorigin="anonymous"></script>
+    <title>Shopping Template</title>
+   
+</head>
+<body>
+    <!--UPDATED SITE-->
+    <div class="outer-container" id="full-w">
+        <div class="container">
+            <div class="left-c hide-c">
+                <div class="r-con">
+                    <div class="logo">
+                    <a href="">LOGO</a>
+                    </div>
+                </div>
+                <div class="r-con">
+                    <div class="l-nav">
+                        <ul id="first-ul">
+                            <li>Shirts</li>
+                            <li>Dresses</li>
+                            <li onclick="show()" ><a href="#" id="hide" class="dropbtn" style="color:gray;">Jeans <i class="fas fa-caret-down"></i></a> </li>
+                                <ul id="second-ul" class="dropdown hide">
+                                    <li style="background-color: rgb(212, 209, 209);"> <i class="fas fa-caret-right" style="padding-right:10px"></i>Skinny</li>
+                                    <li>Relaxed</li>
+                                    <li>Bootcut</li>
+                                    <li>Straight</li>
+                                </ul>
+                            </li>
+                            <li>Jackets</li>
+                            <li>Gymwear</li>
+                            <li>Blazers</li>
+                            <li>Shoes</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="r-col">
+                    <div class="l-nav">
+                        <ul id="third-ul">
+                            <li>Contact</li>
+                            <li>News Letter</li>
+                            <li>Subscribe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right-c full-w">
+                <div class="r-con fix-nav">
+                    <div class="heading"><h1>Jeans</h1></div>
+                    <div class="icon">
+                        <a  class="bars" href="#" onclick="showNav()"><i class="fas fa-bars"></i></a>
+                    </div>
+                </div>
+                <div class="r-con top-bar">
+                    <div class="heading"><h1>SHOP NOW</h1></div>
+                    <div class="icon">
+                        <input type="text" class="hide" placeholder="Search" />
+                        <a href="#" onclick="showInput()"><i class="fas fa-search"></i></a>
+                        
+                        <a href=""><i class="fas fa-shopping-cart"></i></a>
+                    </div>
+                </div>
+                <div class="r-con">
+                    <div class="slider mySlides fade">
+                        <div class="slider-text ">
+                            <h1>New arrivals</h1>
+                            <h2>COLLECTION 2016</h2>
+                            <a href="" class="btn">SHOP NOW</a>
+                        </div>
+                        <img src="img/ban1.jpg" alt="">
+                    </div>
+                    <div class="slider mySlides fade">
+                        <div class="slider-text ">
+                            <h1>New arrivals</h1>
+                            <h2>COLLECTION 2016</h2>
+                            <a href="" class="btn">SHOP NOW</a>
+                        </div>
+                        <img src="img/ban2.jpg" alt="">
+                    </div>
+                    <div class="slider mySlides fade">
+                        <div class="slider-text ">
+                            <h1>New arrivals</h1>
+                            <h2>COLLECTION 2016</h2>
+                            <a href="" class="btn">SHOP NOW</a>
+                        </div>
+                        <img src="img/ban3.jpg" alt="">
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                  </div>
+                <div class="r-con">
+                    <div class="heading"><h2>8 items</h2></div>
+                </div>
+                <div class="r-con pro-con">
+                    <div class="product">
+                        <div class="pro-img">
+                            <div class="tag"><span>NEW</span></div>
+                             <img src="img/p1.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Ripped Skinny Jeans</p>
+                            <span>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p2.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Wahsed Skinny Jeans</p>
+                            <span>$19.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p3.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Vintage Skinny Jeans</p>
+                            <span>$29.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p4.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Latest Skinny Jeans</p>
+                            <span>$59.00</span>
+                        </div>
+                    </div>
+
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p1.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Ripped Skinny Jeans</p>
+                            <span>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p2.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Ripped Skinny Jeans</p>
+                            <span>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p3.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Ripped Skinny Jeans</p>
+                            <span>$49.00</span>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="pro-img">
+                             <img src="img/p4.jpg" alt="">
+                        </div>
+                        <div class="pro-text">
+                            <p>Ripped Skinny Jeans</p>
+                            <span>$49.00</span>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="r-con subscribe">
+                     <h1>Subscribe</h1>
+                     <p>To get special offer and VIP treatment.</p>
+                     <form action="">
+                         <input type="text" placeholder="Enter e-mail">
+                     </form>
+                     
+                     <span href="" class="btn">SUBSCRIBE</span>
+                 </div>
+                 <div class="r-con fotter">
+                     <div class="fot contact">
+                         <h1>Contact</h1>
+                         <h3>Question? Go ahead</h3>
+                         <form action="">
+                             <input type="text" value="Name">
+                             <input type="email" value="Email">
+                             <input type="text" value="Subject">
+                             <input type="text" value="Message">
+                             <input type="submit" class="btn" value="Submit">
+                         </form>
+                     </div>
+                     <div class="fot">
+                         <h1>About</h1>
+                         <ul>
+                             <li><a href="">About us</a></li>
+                             <li><a href="">We're Hiring</a></li>
+                             <li><a href="">Support</a></li>
+                             <li><a href="">Find Store</a></li>
+                             <li><a href="">Shipment</a></li>
+                             <li><a href="">Payment</a></li>
+                             <li><a href="">Gift Card</a></li>
+                             <li><a href="">Return</a></li>
+                             <li><a href="">Help</a></li>
+                         </ul>
+                     </div>
+                     <div class="fot fot-contact">
+                         <h1>Store</h1>
+                         <ul>
+                             <li><a href=""><i class="fas fa-map-marker-alt"></i> Company Name</a></li>
+                             <li><a href=""><i class="fas fa-phone-alt"></i> +92 3357935130</a></li>
+                             <li><a href=""><i class="fas fa-envelope"></i> @gmail.com</a></li>
+                         </ul>
+                         <h1>We Accept</h1>
+                         <ul>
+                             <li><a href=""><i class="fab fa-cc-amex"></i> Amex</a></li>
+                             <li><a href=""><i class="far fa-credit-card"></i> Credit Card</a></li>
+                             <li class="social">
+                                 <a href=""><i class="fab fa-facebook-square"></i></a>
+                                 <a href=""><i class="fab fa-instagram"></i></a>
+                                 <a href=""><i class="fab fa-snapchat-ghost"></i></a>
+                                 <a href=""><i class="fab fa-pinterest-p"></i></a>
+                                 <a href=""><i class="fab fa-twitter"></i></a>
+                                 <a href=""><i class="fab fa-linkedin"></i></a>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="r-con copyright">
+                     <span>Powered by <a href="">AdilZaib</a></span>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js">
+ </script>
+</body>
+</html>
